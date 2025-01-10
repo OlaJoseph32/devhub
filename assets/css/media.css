@@ -1,0 +1,711 @@
+/* Media */
+@media screen and (max-width: 1200px){
+/* NavBAr and Hero section */
+    /* header{background-color: antiquewhite;} */
+    .container{max-width: 1000px;margin: 0 auto; padding: 10px;}
+
+/* Hero section */
+    #home{padding-top: 20px;}
+    #home h1{margin-top: 55px;}
+
+/* About us section */
+    .about-us-text p{font-size: 1.1rem;}
+    .grid-con h2{font-size: 1.6rem;}
+
+/* Offer section */
+    .offer-grid-con h2{font-size: 1rem;}
+
+/* COntact section */
+    .gif{height: auto;width: 300px;}
+    .info-me i{margin-right: 7px;font-size: 1rem;}
+    .social-links i{font-size: 1rem;}
+
+/* Last Section */
+    .lets-build-con h2{font-size: 1.8rem;}
+    .lets-build-con p{font-size: .9rem;}
+    .lets-build-con .btn2{margin-left: -20px;background-color: none;}
+
+/* Footer Section */
+    .log{height: auto;width: 190px;}
+    .social-link i{font-size: 1.2rem;}
+    .address{line-height: 1.5;}
+    .address h2{font-size: 1.6rem;}
+    .address a{font-size: 1rem;}
+    .address i{font-size: 1rem;}
+    #footer p{font-size: .8rem;}
+    
+}
+
+
+    
+@media screen and (max-width: 1100px){
+/* header */
+    /* header{background-color: rgb(198, 120, 17);} */
+    .nav-List{gap: 15px;}
+    .nav-List a{font-size: 1rem;}
+    .container{max-width: 900px;margin: 0 auto;padding: 10px;}
+/* Hero section */
+    #home{padding-top: 20px;}
+    #home h1{margin-top: 55px;}
+
+/* Offer section */
+    .offer-grid-con h2{font-size: 1rem;}
+
+/* Last Section */
+    .lets-build-con h2{font-size: 1.7rem;}
+    .lets-build-con p{font-size: .8rem;}
+    .lets-build-con .btn2{margin-left: -20px;background-color: none;}
+
+/* COntact section */
+    .contact-form h2{font-size: 1.2rem;}
+    .contact-form p{font-size: .9rem;}
+    .gif{height: auto;width: 270px;}
+    .info-me i{margin-right: 7px;font-size: .7rem;}
+    .social-links i{font-size: .9rem;}
+
+/* Footer Section */
+    .log{height: auto;width: 190px;}
+    .social-link i{font-size: 1.2rem;}
+    .address{line-height: 1.5;}
+    .address h2{font-size: 1.6rem;}
+    .address a{font-size: 1rem;}
+    .address i{font-size: 1rem;}
+    #footer p{font-size: .8rem;}
+    
+}
+
+@media screen and (max-width: 960px){
+    /* header{background-color: rgb(17, 17, 16);} */
+    .img{width: 130px;}
+    header .mobile-menu{top: -10px;}
+    .nav-List{gap: 15px;}
+    .nav-List a{font-size: 1rem;}
+    .container{max-width: 750px;margin: 0 auto;padding: 10px;}
+
+/* Hero section */
+    .hero-section{height: 500px;}
+    .hero-section-background .container{height: 500px;}
+    .hero-section-background .div p{width: 420px;padding: 10px 0;}
+    
+    #home{padding-top: 1rem;}
+    #home h1{font-size: 2.3rem; max-width: 400px; margin-top: 1.5rem;}
+
+/* About us section */
+    #about-us .image-con, #our-mission .image-con{height: 300px;}
+    .grid-con p{font-size: .9rem;}
+    .grid-con h2{font-size: 1.4rem;}
+
+/* Our team */
+    .team-con{max-width: 480px;}
+    .team-con h2{font-size:1.4rem;}
+
+/* Offer section */
+    .image-container{display: none;}
+    #offer-section{
+        margin-top: -5rem;
+    }
+    .offer-con{
+        padding:0;
+    }
+    .offer-grid-con{padding-bottom: 30px; gap: 45px; margin-left: 0;}
+    .offer-con .box{
+        position: relative;
+        width: 350px;
+        height: 240px;
+        margin: 20px 0;
+    }
+    .container .box .content h2{
+        font-size: 1rem;
+    }
+    .offer-con .box .content p{
+        font-size: .9rem;
+        margin-bottom: 0;
+    }
+    .offer-con .box:hover span:after{
+        bottom: 0;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+/* Why choose us */
+    #why-choose-us h2{font-size: 1.2rem;}
+    .faq-group h4{font-size: 1.1rem; font-weight: 600;}
+    .faq-group .faq-group-header i{right: 8px;top: 8px;font-size: .7rem;width: 20px;height: fit-content;font-weight: 400;}
+
+/* Last Section */
+    .last-section-grid-con {padding-top: 0;}
+    .lets-build-con h2{font-size: 1.4rem;}
+    .lets-build-con p{font-size: .7rem; line-height: 1.4;}
+    .lets-build-con .btn2{margin-left: -20px;background-color: none;}
+    .btn{border-radius: 8px;padding: 9px 20px;font-size: .8rem;font-weight: 600;}
+
+/* COntact section */
+    .contact-grid{grid-template-columns: 1fr 1fr; margin-top: -3rem;}
+    .contact-form h2{font-size: 1.2rem;}
+    .contact-form p{font-size: .9rem;}
+    .image-ani2{display: block; display: flex; justify-content: end; align-items: center;}
+    .image-ani .gif{height: auto;width: 270px;}
+    .image-ani2 .gif{height: auto; width: 240px; margin-left: 2rem;}
+    .sub-div1{height:25%; display: flex;}
+    .sub-div2{height:45%;line-height: 1.5;}
+    .sub-div3{height: 30%;}
+    .info-me i{margin-right: 7px;font-size: .7rem;}
+    .social-links{justify-content: center; gap: 20px;}
+    .social-links i{font-size: .9rem;}
+
+
+/* Back to top */
+    .back-to-top {bottom: 20px;right: 70px;width: 35px;height: 35px;}
+
+/* Whatsapp */
+    .whatsapp-button {bottom: 20px; right: 20px; width: 35px; height: 35px;}
+    .whatsapp-button i {font-size: 1.2rem;}
+
+/* Footer Section */
+    .log{height: auto;width: 170px;}
+    .social-link i{font-size: 1rem;}
+    .address{line-height: 1.5;}
+    .address h2{font-size: 1.2rem;}
+    .address a, .address h4{font-size: .9rem; font-weight: 300;}
+    .address i{font-size: .8rem;}
+    #footer p{font-size: .8rem;}
+    
+}
+    
+@media screen and (max-width: 768px){
+/* NavBAr */
+    /* header{
+        background-color: rgb(35, 198, 17);
+    } */
+    .img{width: 130px;}
+    header .mobile-menu{top: -10px;}
+    .nav-List{gap: 15px;}
+    .nav-List a{font-size: 1rem;}
+    .container{max-width: 700px;margin: 0 auto;padding: 10px;}
+
+/* Hero section */
+    .hero-section{height: 500px;}
+    .hero-section-background .container{height: 500px;}
+    .hero-section-background .div p{width: 420px;padding: 10px 0;}
+    
+    #home{padding-top: 1rem;}
+    #home h1{font-size: 2.3rem; max-width: 400px; margin-top: 1.5rem;}
+
+/* About us section */
+    #about-us .image-con, #our-mission .image-con{height: 300px;}
+    .grid-con p{font-size: .9rem;}
+    .grid-con h2{font-size: 1.4rem;}
+
+/* Our team */
+    .team-con{max-width: 480px;}
+    .team-con h2{font-size:1.4rem;}
+
+/* Offer section */
+    #offer-section{
+        margin-top: -5rem;
+    }
+    .offer-con{
+        padding:0;
+    }
+    .offer-grid-con{padding-bottom: 30px; gap: 15px; margin-left: -2rem;}
+    .offer-con .box{
+        position: relative;
+        width: 350px;
+        height: 240px;
+        margin: 20px 0;
+    }
+    .container .box .content h2{
+        font-size: 1rem;
+    }
+    .offer-con .box .content p{
+        font-size: .9rem;
+        margin-bottom: 0;
+    }
+    .offer-con .box:hover span:after{
+        bottom: 0;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+/* Why choose us */
+    #why-choose-us h2{font-size: 1.2rem;}
+    .faq-group h4{font-size: 1.1rem; font-weight: 600;}
+    .faq-group .faq-group-header i{right: 8px;top: 8px;font-size: .7rem;width: 20px;height: fit-content;font-weight: 400;}
+
+/* Last Section */
+    .last-section-grid-con {padding-top: 0;}
+    .lets-build-con h2{font-size: 1.4rem;}
+    .lets-build-con p{font-size: .7rem; line-height: 1.4;}
+    .lets-build-con .btn2{margin-left: -20px;background-color: none;}
+    .btn{border-radius: 8px;padding: 9px 20px;font-size: .8rem;font-weight: 600;}
+
+/* COntact section */
+    .contact-grid{grid-template-columns: 1fr 1fr; margin-top: -3rem;}
+    .contact-form h2{font-size: 1.2rem;}
+    .contact-form p{font-size: .9rem;}
+    .image-ani2{display: block; display: flex; justify-content: end; align-items: center;}
+    .image-ani .gif{height: auto;width: 270px;}
+    .image-ani2 .gif{height: auto; width: 200px; margin-left: 2rem;}
+    .sub-div1{height:20%; display: flex;}
+    .sub-div2{height:50%;line-height: 1.5;}
+    .sub-div3{height: 30%;}
+    .info-me i{margin-right: 7px;font-size: .7rem;}
+    .social-links{justify-content: center; gap: 17px;}
+    .social-links i{font-size: .9rem;}
+
+
+/* Back to top */
+    .back-to-top {bottom: 20px;right: 70px;width: 35px;height: 35px;}
+
+/* Whatsapp */
+    .whatsapp-button {bottom: 20px; right: 20px; width: 35px; height: 35px;}
+    .whatsapp-button i {font-size: 1.2rem;}
+
+/* Footer Section */
+    .log{height: auto;width: 170px;}
+    .social-link i{font-size: 1rem;}
+    .address{line-height: 1.5;}
+    .address h2{font-size: 1.2rem;}
+    .address a, .address h4{font-size: .9rem; font-weight: 300;}
+    .address i{font-size: .8rem;}
+    #footer p{font-size: .8rem;}
+        
+}
+   
+
+@media screen and (max-width: 670px){
+/* NavBAr and Hero section */
+    /* header{
+        background-color: rgb(195, 11, 231);
+    } */
+    .img{width: 120px;}
+    header .mobile-menu{top: -14px; width: 55%;}
+    .nav-List{gap: 15px;}
+    .nav-List a{font-size: 1rem;}
+    .container{max-width: 520px;margin: 0 auto;padding: 10px;}
+
+/* Hero section */
+    .hero-section{height: 480px;}
+    .hero-section-background .container{height: 480px;}
+    .hero-section-background .div p{width: 420px;padding: 10px 0;}
+    #home{padding-top: 1rem;}
+    #home h1{font-size: 1.8rem; max-width: 350px; margin-top: 3.5rem;}
+    #home p{font-size: .9rem; max-width: 350px}
+
+/* About us section */
+    #our-mission{margin-top: -5rem;}
+    .grid-con{grid-template-columns: 1fr;}
+    #about-us .image-con, #our-mission .image-con{height: 300px; justify-content: center;}
+    #about-us .grid-con{display: flex; flex-direction: column-reverse;}
+    .grid-con p{font-size: 1.4rem; padding: 10px; margin-top: -1rem;}
+    .grid-con h2{font-size: 2rem; padding:0 10px;}
+
+/* Our team */
+    #our-team{
+        background: linear-gradient(to bottom,#FFFFFF, #D5E7FF ); 
+    }
+    .team-con{max-width: 480px; padding: 15px;}
+    .team-con h2{font-size:1.5rem; text-align: start; margin-top: 20px;}
+    .team-con h3, .team-con p{text-align: start;}
+    .team-con h3{font-size: 1.2rem;}
+    .team-con p{font-size: 1.3rem;}
+    .team-grid-con{grid-template-columns: 1fr;}
+    section .our-team-con{align-items: start;padding: 1rem 0;}
+     #our-team .developer,
+     #our-team .designer,
+     #our-team .project-manag,
+     #our-team .strategist{
+        background: url(./rectangle.png);
+        max-width: 480px;
+        box-shadow: 10px 5px 15px 2px rgb(204, 204, 204);
+        padding: 15px;
+        margin: 0 10px;
+        background-color: #fff;
+
+    }
+    .icon-con{
+        height: 50px;
+        width: 55px;
+    }
+    .team-grid-con h3{font-size: 1.5rem;}
+    .team-grid-con p{
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+
+/* Offer section */
+    #offer-section{padding: 10px 0;}
+    .offer-grid-con{grid-template-columns: 1fr; gap: 40px;}
+    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;margin-left: 15%;background-blend-mode: multiply;background-color: #f3f6fa;background-size: cover;background-position: center; }
+    .offer-con2{margin-top: -3rem;}
+    .image-container{display: none;}
+    .offer-grid-con{padding-bottom: 30px;}
+    .offer-con .box{
+        position: relative;
+        width: 350px;
+        height: 240px;
+    }
+    .container .box .content h2{
+        font-size: 1.1rem;
+    }
+    .offer-con .box .content p{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .offer-con .box:hover span:after{
+        bottom: 0;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+
+/* Why choose us */
+    #why-choose-us h2{font-size: 1.3rem;}
+    .faq-group h4{font-size: 1.1rem; font-weight: 600;}
+    .faq-group .faq-group-header i{right: 8px;top: 8px;font-size: .8rem;width: 20px;height: 20px;font-weight: 400;}
+    .faq-group-body p{font-size: 1rem; line-height: 1.5;}
+
+/* Last Section */
+    .last-section-grid-con {grid-template-columns: 1fr; padding-top: 0; display: flex; flex-direction: column-reverse; justify-content: center; align-items: center;}
+    .lets-build-con h2{font-size: 1.4rem; text-align: start;}
+    .lets-build-con p{font-size: 1.1rem; line-height: 1.4; padding: 10px; text-align: start;}
+    .lets-build-con .btn2{margin-left: -20px;background-color: none;}
+    .image-Con{height: auto; width: 370px; display: flex; justify-content: end;align-items: center;}
+    .btn{border-radius: 8px;padding: 10px 20px;font-size: 1rem;font-weight: 600;}
+
+/* COntact section */
+    .contact-grid{grid-template-columns: 1fr; margin-top: -3rem;}
+    .contact-form h2{font-size: 1.6rem;}
+    .contact-form p{font-size: 1.2rem;}
+    .input-container label {
+        top: -1px;
+        left: 0;
+        padding: 0 5px; 
+        font-size: 1.1rem;
+    }
+    .image-ani2{display: none;}
+    .image-ani .gif{height: auto;width: 270px;}
+    .image-ani2 .gif{display: none;}
+    .sub-div1{height:20%; display: flex;}
+    .sub-div2{height:50%;line-height: 1.5;}
+    .sub-div3{height: 30%;}
+    .info-me{padding-left: 15px;}
+    .info-me h3{margin-top: -2rem;}
+    .info-me i{margin-right: 7px;font-size: .7rem;}
+    .social-links{justify-content: center; gap: 25px;}
+    .social-links i{font-size: .9rem;}
+    .input-container {
+        position: relative;
+        margin: 5px 0;
+        width: 90%;
+    }
+
+/* Back to top */
+    .back-to-top {bottom: 30px;right: 85px;width: 55px;height: 55px;}
+
+/* Whatsapp */
+    .whatsapp-button {bottom: 30px; right: 20px; width: 55px; height: 55px;}
+    .whatsapp-button i {font-size: 2rem;}
+
+/* Footer Section */
+    .footer-grid{align-items: start; justify-content: center}
+    .log{height: auto;width: 130px;}
+    .social-link i{font-size: 1rem; margin-right: 10px;}
+    .address{line-height: 1.5;}
+    .address h2{font-size: 1.1rem;}
+    .address a, .address h4{font-size: .7rem; font-weight: 300;}
+    .address i{font-size: .7rem;}
+    #footer p{font-size: .7rem;}
+    .address{margin-top: -7rem;line-height: 1.8;}
+        
+}
+ 
+
+@media screen and (max-width: 399px){
+/* NavBAr and Hero section */
+    /* header{
+        background-color: rgb(10, 22, 243);
+    } */
+    .img{width: 120px;}
+    header .mobile-menu{top: -14px; width: 55%;}
+    .nav-List{gap: 15px;}
+    .nav-List a{font-size: 1rem;}
+    .container{max-width: 500px;margin: 0 auto;padding: 10px;}
+
+/* Hero section */
+    .hero-section{height: 480px;}
+    .hero-section-background .container{height: 480px;}
+    .hero-section-background .div p{width: 420px;padding: 10px 0;}
+    #home{padding-top: 1rem;}
+    #home h1{font-size: 1.5rem; max-width: 350px; margin-top: 3.5rem;}
+    #home p{font-size: .9rem; max-width: 350px}
+
+/* About us section */
+    .grid-con{grid-template-columns: 1fr;}
+    #about-us .image-con, #our-mission .image-con{height: 300px; justify-content: center;}
+    #about-us .grid-con{display: flex; flex-direction: column-reverse;}
+    .grid-con p{font-size: 1.2rem; padding: 10px;}
+    .grid-con h2{font-size: 2rem; padding:0 10px;}
+
+/* Our team */
+    .team-con{max-width: 480px; padding: 15px;}
+    .team-con h2{font-size:1.5rem; text-align: start; margin-top: 20px;}
+    .team-con h3, .team-con p{text-align: start;}
+    .team-con h3{font-size: 1.1rem;}
+    .team-con p{font-size: 1.1rem;}
+    .team-grid-con{grid-template-columns: 1fr;}
+    section .our-team-con{align-items: start;padding: 1rem 0;}
+    .developer,
+    .designer,
+    .project-manag,
+    .strategist{
+        background: url(./rectangle.png);
+        max-width: 480px;
+        box-shadow: 10px 5px 15px 2px rgb(204, 204, 204);
+        padding: 15px;
+        margin: 0 10px;
+
+    }
+    .icon-con{
+        height: 40px;
+        width: 45px;
+    }
+    .team-grid-con h3{font-size: 1.3rem;}
+    .team-grid-con p{
+        line-height: 1.5;
+        font-size: 1.1rem;
+    }
+
+/* Offer section */
+    #offer-section{padding: 10px 0;}
+    .offer-grid-con{grid-template-columns: 1fr; gap: 40px;}
+    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;margin-left: 10%;background-blend-mode: multiply;background-color: #f3f6fa;background-size: cover;background-position: center; }
+    .image-container{display: none;}
+    .offer-grid-con{padding-bottom: 30px;}
+    .offer-con .box{
+        position: relative;
+        width: 350px;
+        height: 240px;
+    }
+    .container .box .content h2{
+        font-size: 1.1rem;
+    }
+    .offer-con .box .content p{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .offer-con .box:hover span:after{
+        bottom: 0;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+/* Why choose us */
+    #why-choose-us h2{font-size: 1.1rem;}
+    .faq-group h4{font-size: 1.1rem; font-weight: 600;}
+    .faq-group .faq-group-header i{right: 8px;top: 8px;font-size: .8rem;width: 20px;height: 20px;font-weight: 400;}
+    .faq-group-body p{font-size: 1rem; line-height: 1.5;}
+
+/* Last Section */
+    .last-section-grid-con {grid-template-columns: 1fr; padding-top: 0; display: flex; flex-direction: column-reverse; justify-content: center; align-items: center;}
+    .lets-build-con h2{font-size: 1.2rem; text-align: start;}
+    .lets-build-con p{font-size: 1rem; line-height: 1.4; padding: 10px; text-align: start;}
+    .lets-build-con .btn2{margin-left: -20px;background-color: none;}
+    .image-Con{height: auto; width: 300px; display: flex; justify-content: end;align-items: center;}
+    .btn{border-radius: 8px;padding: 10px 20px;font-size: 1rem;font-weight: 600;}
+
+/* COntact section */
+    .contact-grid{grid-template-columns: 1fr; margin-top: -3rem;}
+    .contact-form h2{font-size: 1.3rem;}
+    .contact-form p{font-size: 1rem;}
+    .input-container label {
+        top: -1px;
+        left: 0;
+        padding: 0 5px; 
+        font-size: 1rem;
+    }
+    .image-ani2{display: none;}
+    .image-ani .gif{height: auto;width: 270px;}
+    .image-ani2 .gif{display: none;}
+    .sub-div1{height:20%; display: flex;}
+    .sub-div2{height:50%;line-height: 1.5;}
+    .sub-div3{height: 30%;}
+    .info-me{padding-left: 15px;}
+    .info-me h3{margin-top: -2rem;}
+    .info-me i{margin-right: 7px;font-size: .7rem;}
+    .social-links{justify-content: center; gap: 25px;}
+    .social-links i{font-size: .9rem;}
+    .input-container {
+        position: relative;
+        margin: 5px 0;
+        width: 90%;
+    }
+
+
+/* Back to top */
+    .back-to-top {bottom: 30px;right: 85px;width: 55px;height: 55px;}
+
+/* Whatsapp */
+    .whatsapp-button {bottom: 30px; right: 20px; width: 55px; height: 55px;}
+    .whatsapp-button i {font-size: 2rem;}
+
+/* Footer Section */
+    .footer-grid{align-items: start; justify-content: center}
+    .log{height: auto;width: 130px;}
+    .social-link i{font-size: 1rem; margin-right: 10px;}
+    .address{line-height: 1.5;}
+    .address h2{font-size: 1rem;}
+    .address a, .address h4{font-size: .6rem; font-weight: 300;}
+    .address i{font-size: .6rem;}
+    #footer p{font-size: .6rem;}
+    .address{margin-top: -6.7rem;line-height: 1.9;}
+
+}
+    
+    
+@media screen and (max-width: 320px){
+    /* header{
+        background-color: rgb(239, 96, 19);
+    } */
+    .img{width: 95px;}
+    header .mobile-menu{top: -24px; width: 55%;}
+    .nav-List{gap: 15px;}
+    .nav-List a{font-size: 1rem;}
+    .container{max-width: 500px;margin: 0 auto;padding: 10px;}
+
+/* Hero section */
+    .hero-section{height: 420px;}
+    .hero-section-background .container{height: 420px;}
+    .hero-section-background .div p{width: 420px;padding: 10px 0;}
+    #home{padding-top: 1rem;}
+    #home h1{font-size: 1.3rem; max-width: 280px; margin-top: 3.5rem;}
+    #home p{font-size: .8rem; max-width: 280px}
+
+/* About us section */
+    .grid-con{grid-template-columns: 1fr;}
+    #about-us .image-con, #our-mission .image-con{height: 300px; justify-content: center;}
+    #about-us .grid-con{display: flex; flex-direction: column-reverse;}
+    .grid-con p{font-size: 1rem; padding: 10px;}
+    .grid-con h2{font-size: 1.5rem; padding:0 10px;}
+
+/* Our team */
+    .team-con{max-width: 480px; padding: 15px;}
+    .team-con h2{font-size:1.4rem; text-align: start; margin-top: 20px;}
+    .team-con h3, .team-con p{text-align: start;}
+    .team-con h3{font-size: 1rem;}
+    .team-con p{font-size: .9rem;}
+    .team-grid-con{grid-template-columns: 1fr;}
+    section .our-team-con{align-items: start;padding: 1rem 0;}
+    .developer,
+    .designer,
+    .project-manag,
+    .strategist{
+        background: url(./rectangle.png);
+        max-width: 500px;
+        box-shadow: 10px 5px 15px 2px rgb(204, 204, 204);
+        padding: 15px;
+        margin: 0 10px;
+
+    }
+    .icon-con{
+        height: 30px;
+        width: 35px;
+    }
+    .team-grid-con h3{font-size: 1.2rem;}
+    .team-grid-con p{
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+
+/* Offer section */
+    #offer-section{padding: 10px 0;}
+    .offer-grid-con{grid-template-columns: 1fr; gap: 40px;}
+    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;margin-left: 10%;background-blend-mode: multiply;background-color: #f3f6fa;background-size: cover;background-position: center; }
+    .first-grid-con,
+    .last-grid-con{
+        gap: 40px;
+        margin: 0 10px;
+    }
+    .image-container{display: none;}
+    .offer-grid-con{padding-bottom: 30px;}
+    .offer-grid-con h2{font-size: .9rem;padding: 10px 10px;}
+    .offer-grid-con p{font-size: .9rem; line-height: 1.5;}
+
+/* Why choose us */
+    #why-choose-us h2{font-size: .9rem;}
+    .faq-group h4{font-size: 1.1rem; font-weight: 600;}
+    .faq-group .faq-group-header i{right: 8px;top: 8px;font-size: .6rem;width: 15px;height: 15px;font-weight: 400;}
+    .faq-group-body p{font-size: .8rem; line-height: 1.5;}
+
+/* Last Section */
+    .last-section-grid-con {grid-template-columns: 1fr; padding-top: 0; display: flex; flex-direction: column-reverse; justify-content: center; align-items: center;}
+    .lets-build-con h2{font-size: 1rem; text-align: start;}
+    .lets-build-con p{font-size: .9rem; line-height: 1.4; padding: 10px; text-align: start;}
+    .lets-build-con .btn2{margin-left: -20px;background-color: none;}
+    .image-Con{height: auto; width: 280px; display: flex; justify-content: end;align-items: center;}
+    .btn{border-radius: 8px;padding: 7px 10px;font-size: .8rem;font-weight: 600;}
+
+/* COntact section */
+    .contact-grid{grid-template-columns: 1fr; margin-top: -3rem;}
+    .contact-form h2{font-size: 1.1rem;}
+    .contact-form p{font-size: .8rem;}
+    .input-container label {
+        top: 0;
+        left: 0;
+        padding: 0 5px; 
+        font-size: .8rem;
+    }
+    .image-ani2{display: none;}
+    .image-ani .gif{height: auto;width: 270px;}
+    .image-ani2 .gif{display: none;}
+    .sub-div1{height:20%; display: flex;}
+    .sub-div2{height:50%;line-height: 1.5;}
+    .sub-div3{height: 30%;}
+    .info-me{padding-left: 18px;}
+    .info-me h3{margin-top: -2rem;}
+    .info-me i{margin-right: 7px;font-size: .7rem;}
+    .social-links{justify-content: center; gap: 15px;}
+    .social-links i{font-size: .9rem;}
+    .input-container {
+        position: relative;
+        margin: 5px 0;
+        width: 90%;
+    }
+
+
+/* Back to top */
+    .back-to-top {bottom: 30px;right: 55px;width: 40px;height: 40px;}
+
+/* Whatsapp */
+    .whatsapp-button {bottom: 30px; right: 10px; width: 40px; height: 40px;}
+    .whatsapp-button i {font-size: 1.5rem;}
+
+/* Footer Section */
+    .footer-grid{align-items: start; justify-content: center}
+    .log{height: auto;width: 100px;}
+    .social-link i{font-size: .7rem; margin-right: 10px;}
+    .address{line-height: 3;}
+    .address h2{font-size: .9rem;}
+    .address a, .address h4{font-size: .5rem; font-weight: 300;}
+    .address i{font-size: .5rem;}
+    #footer p{font-size: .5rem;}
+    .address{margin-top: -5.7rem;line-height: 1.9;}
+
+}
+    
+/* iphone landscape */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+/* new media */
+
+@media only screen and (min-width: 3490px) and (max-width: 490px) {
+    
+}
