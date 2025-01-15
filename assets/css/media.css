@@ -207,19 +207,21 @@
     }
     .offer-con{
         padding:0;
+        margin: 0 auto;
     }
-    .offer-grid-con{padding-bottom: 30px; gap: 15px; margin-left: -2rem;}
+    .offer-grid-con{padding-bottom: 30px; gap: 15px; margin-left: 0 auto}
     .offer-con .box{
         position: relative;
-        width: 350px;
-        height: 240px;
-        margin: 20px 0;
+        width: 320px;
+        height: 200px;
+        margin: 0 auto;
+        /* margin-left: 15px; */
     }
     .container .box .content h2{
         font-size: 1rem;
     }
     .offer-con .box .content p{
-        font-size: .9rem;
+        font-size: .8rem;
         margin-bottom: 0;
     }
     .offer-con .box:hover span:after{
@@ -301,19 +303,19 @@
     .grid-con{grid-template-columns: 1fr;}
     #about-us .image-con, #our-mission .image-con{height: 300px; justify-content: center;}
     #about-us .grid-con{display: flex; flex-direction: column-reverse;}
-    .grid-con p{font-size: 1.4rem; padding: 10px; margin-top: -1rem;}
-    .grid-con h2{font-size: 2rem; padding:0 10px;}
+    .grid-con p{font-size: 1.4rem; padding: 10px; margin-top: -1rem; text-align: center;}
+    .grid-con h2{font-size: 1.5rem; padding:0 10px; text-align: center;}
 
 /* Our team */
     #our-team{
-        background: linear-gradient(to bottom,#FFFFFF, #D5E7FF ); 
+        background: linear-gradient(to bottom,#FFFFFF, #D5E7FF ); padding-bottom: 40px ; 
     }
     .team-con{max-width: 480px; padding: 15px;}
-    .team-con h2{font-size:1.5rem; text-align: start; margin-top: 20px;}
-    .team-con h3, .team-con p{text-align: start;}
+    .team-con h2{font-size:1.5rem; text-align: center; margin-top: 20px;}
+    .team-con h3, .team-con p{text-align: center; }
     .team-con h3{font-size: 1.2rem;}
     .team-con p{font-size: 1.3rem;}
-    .team-grid-con{grid-template-columns: 1fr;}
+    .team-grid-con{grid-template-columns: 1fr; gap: 20px;}
     section .our-team-con{align-items: start;padding: 1rem 0;}
      #our-team .developer,
      #our-team .designer,
@@ -340,8 +342,8 @@
 /* Offer section */
     #offer-section{padding: 10px 0;}
     .offer-grid-con{grid-template-columns: 1fr; gap: 40px;}
-    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;margin-left: 15%;background-blend-mode: multiply;background-color: #f3f6fa;background-size: cover;background-position: center; }
-    .offer-con2{margin-top: -3rem;}
+    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;background-blend-mode: multiply;background-color: linear-gradient(to bottom,#FFFFFF, #D5E7FF ); background-size: cover;background-position: center; margin: 0 auto;}
+    .offer-con2{margin-top: -4rem;}
     .image-container{display: none;}
     .offer-grid-con{padding-bottom: 30px;}
     .offer-con .box{
@@ -379,9 +381,9 @@
     .btn{border-radius: 8px;padding: 10px 20px;font-size: 1rem;font-weight: 600;}
 
 /* COntact section */
-    .contact-grid{grid-template-columns: 1fr; margin-top: -3rem;}
-    .contact-form h2{font-size: 1.6rem;}
-    .contact-form p{font-size: 1.2rem;}
+    .contact-grid{grid-template-columns: 1fr; margin-top: -3rem; margin: 0 auto;}
+    .contact-form h2{font-size: 1.5rem; text-align: center;}
+    .contact-form p{font-size: 1.1rem; text-align: center; margin: 0 auto; margin-bottom: 20px;}
     .input-container label {
         top: -1px;
         left: 0;
@@ -392,18 +394,22 @@
     .image-ani .gif{height: auto;width: 270px;}
     .image-ani2 .gif{display: none;}
     .sub-div1{height:20%; display: flex;}
-    .sub-div2{height:50%;line-height: 1.5;}
+    .sub-div2{height:50%;line-height: 1.5; padding-left: 1.5rem;}
     .sub-div3{height: 30%;}
     .info-me{padding-left: 15px;}
     .info-me h3{margin-top: -2rem;}
     .info-me i{margin-right: 7px;font-size: .7rem;}
     .social-links{justify-content: center; gap: 25px;}
     .social-links i{font-size: .9rem;}
-    .input-container {
+    .input-container{
         position: relative;
         margin: 5px 0;
         width: 90%;
     }
+    .contact-Form button{width: 90%; margin: 0 auto; text-align: center;}
+    .form{align-items: center;}
+    form {display: flex; flex-direction: column;
+    justify-content: center;}
 
 /* Back to top */
     .back-to-top {bottom: 30px;right: 85px;width: 55px;height: 55px;}
@@ -450,13 +456,13 @@
     #about-us .image-con, #our-mission .image-con{height: 300px; justify-content: center;}
     #about-us .grid-con{display: flex; flex-direction: column-reverse;}
     .grid-con p{font-size: 1.2rem; padding: 10px;}
-    .grid-con h2{font-size: 2rem; padding:0 10px;}
+    .grid-con h2{font-size: 1.5rem; padding:0 10px;}
 
 /* Our team */
     .team-con{max-width: 480px; padding: 15px;}
-    .team-con h2{font-size:1.5rem; text-align: start; margin-top: 20px;}
-    .team-con h3, .team-con p{text-align: start;}
-    .team-con h3{font-size: 1.1rem;}
+    .team-con h2{font-size:1.5rem; text-align: center; margin-top: 20px;}
+    .team-con h3, .team-con p{text-align: center;}
+    .team-con h3{font-size: 1.1rem; text-align: center;}
     .team-con p{font-size: 1.1rem;}
     .team-grid-con{grid-template-columns: 1fr;}
     section .our-team-con{align-items: start;padding: 1rem 0;}
@@ -484,13 +490,16 @@
 /* Offer section */
     #offer-section{padding: 10px 0;}
     .offer-grid-con{grid-template-columns: 1fr; gap: 40px;}
-    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;margin-left: 10%;background-blend-mode: multiply;background-color: #f3f6fa;background-size: cover;background-position: center; }
+    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;background-blend-mode: multiply;background-color: linear-gradient(to bottom,#FFFFFF, #D5E7FF );background-size: cover;background-position: center; }
     .image-container{display: none;}
     .offer-grid-con{padding-bottom: 30px;}
     .offer-con .box{
         position: relative;
-        width: 350px;
-        height: 240px;
+        width: 330px;
+        height: 200px;
+        margin: 0 auto;
+        /* margin-left: 35px; */
+        margin-bottom: 30px;
     }
     .container .box .content h2{
         font-size: 1.1rem;
@@ -499,6 +508,7 @@
         font-size: 1rem;
         margin-bottom: 0;
     }
+    .offer-con2{margin-top: -4rem;}
     .offer-con .box:hover span:after{
         bottom: 0;
         right: 10px;
@@ -530,6 +540,11 @@
         padding: 0 5px; 
         font-size: 1rem;
     }
+    .contact-Form button{width: 90%; margin: 0 auto; text-align: center;}
+    .form{align-items: center;}
+    form {display: flex; flex-direction: column;
+    justify-content: center;}
+
     .image-ani2{display: none;}
     .image-ani .gif{height: auto;width: 270px;}
     .image-ani2 .gif{display: none;}
@@ -557,8 +572,8 @@
 
 /* Footer Section */
     .footer-grid{align-items: start; justify-content: center}
-    .log{height: auto;width: 130px;}
-    .social-link i{font-size: 1rem; margin-right: 10px;}
+    .log{height: auto;width: 110px;}
+    .social-link i{font-size: .9rem; margin-right: 8px;}
     .address{line-height: 1.5;}
     .address h2{font-size: 1rem;}
     .address a, .address h4{font-size: .6rem; font-weight: 300;}
@@ -592,12 +607,12 @@
     #about-us .image-con, #our-mission .image-con{height: 300px; justify-content: center;}
     #about-us .grid-con{display: flex; flex-direction: column-reverse;}
     .grid-con p{font-size: 1rem; padding: 10px;}
-    .grid-con h2{font-size: 1.5rem; padding:0 10px;}
+    .grid-con h2{font-size: 1.2rem; padding:0 10px;}
 
 /* Our team */
     .team-con{max-width: 480px; padding: 15px;}
-    .team-con h2{font-size:1.4rem; text-align: start; margin-top: 20px;}
-    .team-con h3, .team-con p{text-align: start;}
+    .team-con h2{font-size:1.2rem; text-align: center; margin-top: 20px;}
+    .team-con h3, .team-con p{text-align: center;}
     .team-con h3{font-size: 1rem;}
     .team-con p{font-size: .9rem;}
     .team-grid-con{grid-template-columns: 1fr;}
@@ -626,14 +641,17 @@
 /* Offer section */
     #offer-section{padding: 10px 0;}
     .offer-grid-con{grid-template-columns: 1fr; gap: 40px;}
-    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;margin-left: 10%;background-blend-mode: multiply;background-color: #f3f6fa;background-size: cover;background-position: center; }
-    .first-grid-con,
-    .last-grid-con{
-        gap: 40px;
-        margin: 0 10px;
-    }
+    .gif-im{display: block;background: url(./1681293142_w-h.gif) no-repeat center center;height: 320px;width: 320px;;background-blend-mode: multiply;background-color: linear-gradient(to bottom,#FFFFFF, #D5E7FF );background-size: cover;background-position: center; }
     .image-container{display: none;}
-    .offer-grid-con{padding-bottom: 30px;}
+    .offer-con .box{
+        position: relative;
+        width: 310px;
+        height: 200px;
+        margin: 0 auto;
+        /* margin-left: 35px; */
+        margin-bottom: 50px;
+    }
+    .offer-grid-con{padding-bottom: 30px; padding-top: 30px;}
     .offer-grid-con h2{font-size: .9rem;padding: 10px 10px;}
     .offer-grid-con p{font-size: .9rem; line-height: 1.5;}
 
@@ -653,19 +671,24 @@
 
 /* COntact section */
     .contact-grid{grid-template-columns: 1fr; margin-top: -3rem;}
-    .contact-form h2{font-size: 1.1rem;}
-    .contact-form p{font-size: .8rem;}
+    .contact-form h2{font-size: 1.2rem;}
+    .contact-form p{font-size: .8rem; max-width: 250px;}
     .input-container label {
         top: 0;
         left: 0;
         padding: 0 5px; 
         font-size: .8rem;
     }
+    .contact-Form button{width: 90%; margin: 0 auto; text-align: center;}
+    .form{align-items: center;}
+    form {display: flex; flex-direction: column;
+    justify-content: center;}
+
     .image-ani2{display: none;}
     .image-ani .gif{height: auto;width: 270px;}
     .image-ani2 .gif{display: none;}
     .sub-div1{height:20%; display: flex;}
-    .sub-div2{height:50%;line-height: 1.5;}
+    .sub-div2{height:50%;line-height: 1.5; margin: 0 auto;}
     .sub-div3{height: 30%;}
     .info-me{padding-left: 18px;}
     .info-me h3{margin-top: -2rem;}
