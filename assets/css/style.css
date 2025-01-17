@@ -233,6 +233,9 @@ header{
     max-width: 100%;
     position: relative;
     background: rgba(17, 17, 18, 0.7);
+    -webkit-transform: translateZ(0); 
+    will-change: transform, opacity;
+    -webkit-backface-visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
