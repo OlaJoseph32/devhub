@@ -227,7 +227,7 @@ header{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: #004882;
+    /* background-color: #004882; */
 }
 .hero-section img{
     height: 100%;
