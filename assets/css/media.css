@@ -5,6 +5,10 @@
     .container{max-width: 1000px;margin: 0 auto; padding: 10px;}
 
 /* Hero section */
+.hero-section-background{
+    height: 870px;
+    padding-top: -20rem;
+}
     #home{padding-top: 20px;}
     #home h1{margin-top: 55px;}
 
@@ -83,8 +87,15 @@
     .container{max-width: 750px;margin: 0 auto;padding: 10px;}
 
 /* Hero section */
-    .hero-section{height: 500px;}
-    .hero-section-background .container{height: 500px;}
+.hero-section{
+    height: 460px;
+}
+.hero-section-background{
+    height: 475px;
+    padding-top: 4rem;
+}
+    /* .hero-section{height: 500px;} */
+    /* .hero-section-background .container{height: 500px;} */
     .hero-section-background .div p{width: 420px;padding: 10px 0;}
     
     #home{padding-top: 1rem;}
@@ -185,8 +196,15 @@
     .container{max-width: 700px;margin: 0 auto;padding: 10px;}
 
 /* Hero section */
-    .hero-section{height: 500px;}
-    .hero-section-background .container{height: 500px;}
+.hero-section{
+    height: 460px;
+}
+.hero-section-background{
+    height: 475px;
+    padding-top: 1rem;
+}
+    /* .hero-section{height: 500px;} */
+    /* .hero-section-background .container{height: 500px;} */
     .hero-section-background .div p{width: 420px;padding: 10px 0;}
     
     #home{padding-top: 1rem;}
@@ -296,7 +314,7 @@
 }
 .hero-section-background{
     height: 475px;
-    padding-top: 10rem;
+    padding-top: 1rem;
 }
     /* .hero-section{height: 480px;} */
     /* .hero-section-background .container{height: 480px;} */
@@ -457,7 +475,7 @@
 }
 .hero-section-background{
     height: 475px;
-    padding-top: 10rem;
+    padding-top: 1rem;
 }
     /* .hero-section{height: 480px;} */
     /* .hero-section-background .container{height: 480px;} */
